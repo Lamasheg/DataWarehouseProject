@@ -22,7 +22,7 @@ for their analytics team to continue finding insights in what songs their users 
 
 ## File Structure<a name="Files"></a>
 
-1. Setup Redshift Cluster.ipynb: creates all required paramteres to eventually create the Redshift Cluster
+1. Setup Redshift Cluster.ipynb: creates all required paramteres to eventually create the Redshift Cluster (creates dc2.large with 4 nodes)
 2. create_tables.py: runs scripts in sql_queries.py to create staging and analytics tables
 3. dwh.cfg: holds our AWS user, role, cluster, DB info
 4. etl.py: runs scripts in sql_queries.py to extract, transforma and load data to our database tables
